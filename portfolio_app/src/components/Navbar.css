@@ -1,0 +1,91 @@
+:root {
+  --bg-light: #ffffff;
+  --text-light: #000000;
+  --bg-dark: #121212;
+  --text-dark: #f0f0f0;
+  --accent-color: #007bff;
+}
+
+body.light {
+  --bg-color: var(--bg-light);
+  --text-color: var(--text-light);
+}
+
+body.dark {
+  --bg-color: var(--bg-dark);
+  --text-color: var(--text-dark);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.portfolio {
+  font-weight: bold;
+  
+}
+
+.navbar_menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar_menu ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar_menu a {
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 0.25rem;
+  transition: color 0.3s;
+}
+
+.navbar_menu a:hover {
+  color: var(--accent-color);
+}
+
+.navbar_menu a.active {
+  color: var(--accent-color);
+  font-weight: bold;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.toggle {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}

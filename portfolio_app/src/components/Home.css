@@ -1,0 +1,114 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex: 2;
+  min-width: 300px;
+  text-align: left;
+}
+
+.myimg {
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+  text-align: center;
+  margin-left: 2rem; 
+}
+
+.myimg img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #007acc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.content {
+  flex: 2;
+  min-width: 300px;
+  text-align: left;
+}
+
+.name {
+  color: #007acc;
+  font-weight: bold;
+}
+
+.job {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.social p {
+  margin-bottom: 0.5rem;
+}
+
+.social a {
+  margin: 0 1rem 0 0;
+  text-decoration: none;
+  color: #0909f3;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.actions {
+  margin: 1rem 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn_one {
+  background-color: black;
+  color: #fff;
+}
+
+.btn_two {
+  background-color: #fff;
+  color: black;
+}
+
+.status {
+  margin-top: 2rem;
+  font-style: italic;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.badge {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.badge:hover {
+  background-color: #d0e6ff;
+}
+
