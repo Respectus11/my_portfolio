@@ -9,18 +9,36 @@
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
 }
-.highlights h4{
+.highlights {
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem 0;
-}
-.personal-info p {
-  margin: 0.5rem 0;
-  text-align: left;
-}
+    margin-top: 2rem;
 
+}
+.cards{
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.cards p{
+  display: inline-block;
+  font-size: 0.9rem;
+}
+.cards h4{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom:0.5rem;
+  color: #333;
+}
+.cards:hover {
+  color: blue;
+  box-shadow:0 6px 12px rgba(0,0,255,0.2)
+}
 .myimgtwo img {
   width: 200px;
   height: 200px;

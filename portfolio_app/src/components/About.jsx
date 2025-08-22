@@ -11,20 +11,21 @@ function About() {
       </p>
 
       <div className="highlights">
-        <h4><FaInfoCircle /> Who am I</h4>
-        <h4><FaLightbulb /> My Approach</h4>
-        <h4><FaInfoCircle /> Personal Info</h4>
-      </div>
-
-      <div className="personal-info">
-        <p><strong>Name:</strong> Kalab Bilhatu</p>
+        <div className="cards"><h4><FaInfoCircle /> Who am I</h4></div>
+        <div className="cards"><h4><FaLightbulb /> My Approach</h4></div>
+        <div className="cards"><h4><FaInfoCircle /> Personal Info:</h4><p><strong>Name:</strong> Kalab Bilhatu</p>
         <p><strong>Place of Birth:</strong> Addis Ababa, Ethiopia</p>
         <p><strong>Phone:</strong> +251 978 600 920</p>
         <p><strong>Date of Birth:</strong> February 2, 2006</p>
         <p><strong>Email:</strong> KAlexkalab@gmail.com</p>
         <p><strong>Education:</strong> Student at Adama Science and Technology University</p>
+        </div>
+        
+        
+        
       </div>
 
+  
       <div className="myimgtwo">
         <img src="" alt="Kalab Bilhatu" />
       </div>
